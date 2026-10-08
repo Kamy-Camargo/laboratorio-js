@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratório JS</title>
+    <title>LABORATÓRIO JS</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="topo">
         <div class="titulo-topo">
-           <i class="bi bi-javascript"></i>
-           <h1>Laboratório JavaScript</h1>
+            <i class="bi bi-javascript"></i>
+            <h1>Laboratório JavaScript</h1>
         </div>
 
         <button id="btn-menu">
             <i class="bi bi-list"></i>
             Menu
         </button>
-
+        
         <nav id="menu" class="menu">
             <a href="#exemplo1">
                 <i class="bi bi-eye-slash-fill"></i>
-                Mostar/Ocultar
+                Mostrar/Ocultar
             </a>
             <a href="#exemplo2">
                 <i class="bi bi-pencil-square"></i>
@@ -49,11 +49,11 @@
     <main class="container">
         <section class="card" id="exemplo1">
             <h2>
-               <i class="bi bi-eye-slash-fill"></i>
-               1. Mostrar e Ocultar elemento
+                <i class="bi bi-eye-slash-fill"></i>
+                1. Mostrar e Ocultar elemento
             </h2>
             <p>
-                Nesse exemplo o JavaScript adiciona ou remove uma classe do CSS.
+                Neste exemplo o JavaScript adiciona ou remove uma classe do CSS.
             </p>
             <button id="btn-mostrar">
                 <i class="bi bi-eye"></i>
@@ -68,26 +68,32 @@
                 <i class="bi bi-pencil-square"></i>
                 2. Alterar texto
             </h2>
+
             <p id="texto">
                 Texto original
             </p>
+
             <button id="btn-texto">
                 <i class="bi bi-pen"></i>
                 Alterar texto
             </button>
         </section>
+
         <section class="card" id="exemplo3">
             <h2>
                 <i class="bi bi-palette"></i>
                 3. Alterar tema
             </h2>
+
             <p>
                 O botão adiciona ou remove uma classe no elemento body
             </p>
+
             <button id="btn-tema">
                 <i class="bi bi-moon"></i>
                 Tema escuro
             </button>
+
             <button id="btn-tema-claro">
                 <i class="bi bi-sun"></i>
                 Tema claro
@@ -98,7 +104,7 @@
                 <i class="bi bi-calculator"></i>
                 4. Contador
             </h2>
-            
+
             <div class="contador">
                 <i class="bi bi-hash"></i>
                 <span id="contador">0</span>
@@ -109,11 +115,13 @@
                     <i class="bi bi-dash"></i>
                     Diminuir
                 </button>
+
                 <button id="btn-zerar">
                     <i class="bi bi-arrow-repeat"></i>
                     Zerar
                 </button>
-                <button class="btn-mais">
+
+                <button id="btn-mais">
                     <i class="bi bi-plus"></i>
                     Aumentar
                 </button>
@@ -130,10 +138,12 @@
 
                 <input type="text" id="nome" placeholder="Digite seu nome">
             </div>
+
             <button id="btn-nome">
                 <i class="bi bi-check"></i>
                 Mostrar nome
             </button>
+
             <p id="resultado-nome"></p>
         </section>
         <section class="card" id="exemplo6">
@@ -145,12 +155,12 @@
             <div class="campo">
                 <i class="bi bi-list"></i>
 
-                <input type="text" id="tarefa" placeholder="Digite uma tarefa">
+                <input type="text" id="tarefa" placeholder="Digite um tarefa">
             </div>
 
             <button id="btn-adicionar">
                 <i class="bi bi-plus"></i>
-                Adicionar tarefa
+                Adiocionar tarefa
             </button>
 
             <ul id="lista">
@@ -188,6 +198,7 @@
                 <i class="bi bi-search"></i>
                 Verificar idade
             </button>
+
             <p id="resultado-idade"></p>
         </section>
         <section class="card">
@@ -211,7 +222,7 @@
 
                <i class="bi bi-layout-three-columns"></i>
 
-                11. Sistema de abas
+                10. Sistema de abas
 
             </h2>
 
@@ -319,6 +330,7 @@
         </section>
 
     </main>
+
     <div
         id="modal"
         class="modal oculto"
@@ -353,6 +365,7 @@
 
     </div>
 
+    <script src="script.js"></script>
 
 </body>
 </html>
